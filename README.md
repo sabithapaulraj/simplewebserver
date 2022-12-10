@@ -15,6 +15,22 @@ Serving the HTML pages.
 Testing the webserver
 
 # PROGRAM:
+```
+from http.server import HTTPServer,BaseHTTPRequestHandler
+content='''
+hello
+'''
+class MyServer(BaseHTTPRequestHandler):
+    def do_GET(self):
+        print("Get request received...")
+        self.send_response(402)
+        self.end_headers()
+        self.wfile.write(content.encode())
+print("This is my webserver")
+server_address=('',80)
+httpd = HTTPServer(server_address,MyServer)
+httpd.serve_forever()
+```
 
 
 # OUTPUT:
