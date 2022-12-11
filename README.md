@@ -46,13 +46,13 @@ httpd.serve_forever()
 # OUTPUT:
 
 ##Server Side Output
-![Screenshot (43)](https://user-images.githubusercontent.com/118343379/206890480-a5e3bc74-e541-46bf-bbf6-58f894be542d.png)
+![Screenshot (45)](https://user-images.githubusercontent.com/118343379/206890508-4b1b85b2-beb8-47af-ab25-43f9b4200967.png)
 
 
 
 
 ##Client Side Output
-![Screenshot (45)](https://user-images.githubusercontent.com/118343379/206890491-db7bf69c-aabd-4c26-9007-e9f85d665e8d.png)
+![Screenshot (43)](https://user-images.githubusercontent.com/118343379/206890515-8d04e82f-cd55-4b2a-b47b-55a36800d768.png)
 
 
 
